@@ -1,1 +1,2 @@
-meteor build --server localhost:3000 --directory .dist/android
+meteor build --server localhost:3000 --directory ./dist/android --debug
+// for some reason without --debug flag apk not installed to phone
