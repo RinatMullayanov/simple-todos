@@ -3,17 +3,43 @@ body {
   color: rgba(0,0,0,.84);
 }
 
-.delete {
-    padding: 0;
-    margin: 0;
-}
-
-.hide-completed {
-  margin-top: 24px;
+.layout {
+   padding-right: 0px; 
+   padding-left: 0px; 
 }
 
 .header {
   background-color: #03a9f4;
   color: rgba(255,255,255,.84);
+  padding-right: 15px; 
+  padding-left: 15px; 
 }
 
+.tasks-layout {
+  padding-top: 15px;
+  padding-right: 15px; 
+  padding-left: 15px;
+  font-size: 18px;
+}
+
+.tasks-layout__input {
+  font-size: 18px;
+}
+
+.tasks {
+  padding-right: 15px; 
+  padding-left: 15px; 
+  font-size: 20px;
+}
+
+.delete {
+  padding: 0px;
+  margin: 0px;
+}
+
+.checked {
+  color: #888;
+}
+.checked .text {
+  text-decoration: line-through;
+}
