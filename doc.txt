@@ -1,0 +1,1 @@
+meteor build --server localhost:3000 --directory .dist/android
